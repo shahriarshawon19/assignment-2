@@ -117,8 +117,9 @@ body{
    justify-content: center;
    gap: 30px;
    padding: 20px;
-   margin: 0 auto;
+   /* margin: 0 auto; */
    text-align: center;
+   margin: 0 50px;
    
 }
 .all-product{
@@ -167,7 +168,95 @@ body{
     font-weight: 600px;
     
  }
-
+ /* flower and plants */
+ .img-container{
+    position: relative;
+ }
+.trusted-badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    left: 470px;
+    top: 90px;
+}
+ .advanced{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+ }
+ .flower-shop{
+    width: 540px;
+    height: 590px;
+    padding-left: 100px;
+    margin-top: 210px;
+ }
+ .text-container{
+    margin-top: 248px;
+    margin-left: 50px;
+    
+ }
+ .text-title{
+    font-size: 50px;
+    font-weight: bold;
+    /* padding-right: 150px; */
+    
+   
+ }
+ .text-list{
+    padding-left: 20px;
+    /* padding-right: 100px; */
+    color: #000000;
+ }
+ .text{
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 400px;
+    color: rgba(0, 0, 0, 0.5);
+    /* padding-right: 60px; */
+    margin-right: 80px;
+ }
+ /* latest deals */
+ .heading-text{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 120px;
+ }
+ .heading-title{
+    font-size: 50px;
+    font-weight: bold;
+ }
+ .des{
+    font-size: 22px;
+    
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 16px;
+    margin: 0 276px;
+ }
+ .pic-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 80px;
+    gap: 28px;
+    width: 1140px;
+ }
+ .two-pic{
+    width: 30%;
+ }
+ .pic-three{
+    width: 60%;
+   
+ }
+ .pic-one{
+    margin-bottom: 20px;
+    border-radius: 14px;
+ }
+ .pic-2{
+    border-radius: 14px;
+ }
+ .pic-3{
+    border-radius: 22px;
+ }
 /* responsive for small devices */
 @media screen and (max-width:576px) {
     .hidden{
@@ -224,7 +313,7 @@ body{
 
 .product-title{
     text-align: center;
-    
+    padding-left: 50px;
     
 }
 .product-des{
@@ -233,6 +322,7 @@ body{
    margin: 0 auto;
    text-align: center;
    padding-top: 16px;
+   padding-left: 50px;
    
 }
 .product-container{
@@ -240,7 +330,7 @@ body{
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     width: 100%;
-    
+    margin-left: 10px;
    
 }
 .btn-primary{
@@ -252,5 +342,60 @@ body{
     font-weight: 600px;
     text-align: center;
 
+}
+.advanced{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.trusted-badge{
+    display: none;
+}
+.flower-shop{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 50px; */
+    margin-top: 10px;
+    padding: 0 30px;
+    
+}
+.text-container{
+    /* padding-top: 20px; */
+    /* padding-left: 50px; */
+    /* text-align: center; */
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    margin-left: 30px;
+    
+    
+}
+.text-title{
+    width: 100%;
+    font-size: 35px;
+   
+    
+}
+.break{
+    display: none;
+}
+.text{
+    padding: 0;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.heading-text{
+    text-align: center;
+}
+.heading-title{
+    padding-left: 50px;
+}
+.des{
+    margin: 0 auto;
+    padding-left: 50px;
+}
+.pic-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 }

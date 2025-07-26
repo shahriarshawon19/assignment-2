@@ -237,24 +237,27 @@ body{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin: 0 150px;
+    /* margin: 0 150px; */
     gap: 25px;
  }
- 
+ .half{
+    margin-left: 150px;
+ }
  .part-one{
-    width: 366px;
-    height: 200px;
+    /* width: 366px;
+    height: 200px; */
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.593), rgba(0, 0, 0, 0.402)), url(../assets/deal-bloom.png);
     margin-bottom: 25px;
     border-radius: 14px;
+    padding: 0 35px;
  }
  .part-one img{
     width: 100%;
     height: 100%;
  }
  .full{
-    width: 366px;
-    height: 200px;
+    /* width: 366px;
+    height: 200px; */
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.593), rgba(0, 0, 0, 0.402)), url(../assets/deal-ana.png);
     border-radius: 14px;
  }
@@ -263,10 +266,11 @@ body{
     height: 100%;
  }
  .second-side{
-    width: 753px;
-    height: 423px;
+    /* width: 753px;
+    height: 423px; */
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.593), rgba(0, 0, 0, 0.402)), url(../assets/deal-zabo.png);
     border-radius: 22px;
+    margin-right: 150px;
  }
  .second-side img{
     width: 100px;
@@ -285,6 +289,7 @@ body{
     padding: 19px 95px 0;
     color: white;
     text-decoration: underline;
+    padding-bottom: 75px;
  }
  .upper-second{
     font-size: 40px;
@@ -436,5 +441,78 @@ body{
     margin: 0 auto;
     padding-left: 50px;
 }
+.deals-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.half{
+    margin: 0 50px;
+}
+.part-one{
+  /* padding: 80px 20px;
+    border-radius: 14;
+    width: 100%; */
+    padding: 75px 30px;
+    border-radius: 0;
+    width: 100%;
+    /* margin-left: 20px;    */
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 100px; */
+    /* padding-right: 50px; */
+    border-radius: 14px;
+    
+}
+.upper{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    /* padding: 172px 127px 0; */
+    padding: 0;
+    padding-bottom: 10px;
+}
+.down{
+    font-size: 14px;
+    font-weight: 500px;
+    color: white;
+    /* padding: 15px 66px ; */
+    padding: 0;
+    text-decoration: underline;
+}
+.full{
+  padding: 75px 30px;
+    border-radius: 0;
+    width: 100%;
+    /* margin-left: 20px;    */
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 100px; */
+    /* padding-right: 50px; */
+}
 
+.second-side{
+   padding: 80px 20px;
+    border-radius: 14;
+    width: 80%;
+    margin-left: 50px;
+}
+.upper-second{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    /* padding: 172px 127px 0; */
+    padding: 0;
+    padding-bottom: 10px;
+    
+ }
+ .down-second{
+    font-size: 14px;
+    font-weight: 500px;
+    color: white;
+    /* padding: 15px 66px ; */
+    padding: 0;
+    text-decoration: underline;
+ }
+ 
 }

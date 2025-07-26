@@ -2,16 +2,17 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-body{
-    /* margin: 0 auto; */
-    border-color: #F5F8FF;
-}
-body, html{
-    width: 100%;
+    /* box-sizing: border-box; */
     
 }
+body{
+    margin: 0 auto;
+    border-color: #F5F8FF;
+}
+/* body, html{
+    width: 100%;
+    
+} */
 .padding{
     padding-left: 5px;
 }
@@ -311,6 +312,10 @@ body, html{
  }
  .sub-part{
     background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     align-items: center;
     justify-content: center;
     margin-top: 120px;
@@ -552,6 +557,38 @@ body, html{
     /* padding: 15px 66px ; */
     padding: 0;
     text-decoration: underline;
+ }
+ .sub-part{
+    margin: 0;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 0;
+    
+ }
+ .sub-part h2{
+    font-size: 22px;
+    padding-top: 50px;
+ }
+ .sub-container{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+    
+ }
+ .sub-container input{
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+ }
+ .sub-container button{
+    margin: 0;
+    padding: 0;
+    padding: 5px;
  }
  
 }
